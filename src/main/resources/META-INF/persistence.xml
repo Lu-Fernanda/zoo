@@ -10,5 +10,14 @@
     <class>modelo.Perros</class>
     <class>modelo.Comentarios</class>
     
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="postgres://ucstcwtepamvjt:57f516125534a599bac8f0b79e8b180fa133d1873e88bf2b2ab3b887d645a09b@ec2-23-23-247-245.compute-1.amazonaws.com:5432/d4ja9l4bmjeu9k"/>
+      <property name="javax.persistence.jdbc.user" value="ucstcwtepamvjt"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="57f516125534a599bac8f0b79e8b180fa133d1873e88bf2b2ab3b887d645a09b"/>
+      <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+      <property name="eclipselink.logging.level" value="FINE"/>
+    </properties>
+ 
   </persistence-unit>
 </persistence>
